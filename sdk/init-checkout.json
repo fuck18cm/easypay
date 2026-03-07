@@ -1,25 +1,31 @@
 {
-  "order": {
-    "tradeNo": "Q2603071907083429880",
-    "orderAmount": "100000.0",
-    "subPayType": "EP",
-    "accountNo": "03428666805",
-    "payState": 4
+  "code": 0,
+  "message": "success",
+  "data": {
+    "order": {
+      "tradeNo": "Q2603071907083429880",
+      "orderAmount": "100000.0",
+      "subPayType": "EP",
+      "accountNo": "03428666805",
+      "payState": 4
+    },
+    "checkOutSetting": {
+      "subPayType": [
+        {
+          "code": "EP",
+          "name": "easypaisa",
+          "enabled": true,
+          "selected": true
+        },
+        {
+          "code": "JC",
+          "name": "jazzcash",
+          "enabled": true,
+          "selected": false
+        }
+      ]
+    }
   },
-  "checkOutSetting": {
-    "subPayType": [
-      {
-        "code": "EP",
-        "name": "easypaisa",
-        "enabled": true,
-        "selected": true
-      },
-      {
-        "code": "JC",
-        "name": "jazzcash",
-        "enabled": true,
-        "selected": false
-      }
-    ]
-  }
+  "timestamp": 1772897599215,
+  "traceId": "f12ff48cc2324e1c"
 }
