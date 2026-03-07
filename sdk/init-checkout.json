@@ -16,13 +16,38 @@
           "code": "EP",
           "name": "easypaisa",
           "enabled": true,
-          "selected": true
+          "wallet": {
+            "required": true,
+            "length": 11,
+            "validateExpression": "^03\d{2}-\d{7}$",
+            "placeholderEng": "03xxxxxxxxx",
+            "placeholderUrd": "03xxxxxxxxx",
+            "errorMsgEng": "Please enter wallet account!",
+            "errorMsgUrd": "براہ کرم اپنا بٹوہ اکاؤنٹ درج کریں۔"
+          }
         },
         {
           "code": "JC",
           "name": "jazzcash",
           "enabled": true,
-          "selected": false
+          "wallet": {
+            "required": true,
+            "length": 11,
+            "validateExpression": "^03\d{2}-\d{7}$",
+            "placeholderEng": "03xxxxxxxxx",
+            "placeholderUrd": "03xxxxxxxxx",
+            "errorMsgEng": "Please enter wallet account!",
+            "errorMsgUrd": "براہ کرم اپنا بٹوہ اکاؤنٹ درج کریں۔"
+          },
+          "cnic": {
+            "required": true,
+            "length": 6,
+            "validateExpression": "^\d{6}$",
+            "placeholderEng": "The last 6 digits of CNIC",
+            "placeholderUrd": "CNIC کے آخری 6 ہندسے",
+            "errorMsgEng": "Please enter the last 6 digits of CNIC!",
+            "errorMsgUrd": "براہ کرم CNIC کے آخری 6 ہندسے درج کریں۔"
+          }
         }
       ]
     }
