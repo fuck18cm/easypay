@@ -29,7 +29,7 @@
         {
           "code": "JC",
           "name": "jazzcash",
-          "enabled": true,
+          "enabled": false,
           "wallet": {
             "required": true,
             "length": 11,
@@ -40,7 +40,7 @@
             "errorMsgUrd": "براہ کرم اپنا بٹوہ اکاؤنٹ درج کریں۔"
           },
           "cnic": {
-            "required": true,
+            "required": false,
             "length": 6,
             "validateExpression": "^\d{6}$",
             "placeholderEng": "The last 6 digits of CNIC",
