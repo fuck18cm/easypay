@@ -10,6 +10,7 @@
       "payState": 4
     },
     "checkOutSetting": {
+      "language": "eng",
       "subPayType": [
         {
           "code": "EP",
