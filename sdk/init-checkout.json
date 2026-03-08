@@ -19,7 +19,7 @@
           "wallet": {
             "required": true,
             "length": 11,
-            "validateExpression": "^03\\d{9}$",
+            "validateExpression": "^03\d{9}$",
             "placeholderEng": "03xxxxxxxxx",
             "placeholderUrd": "03xxxxxxxxx",
             "errorMsgEng": "Please enter wallet account!",
@@ -33,7 +33,7 @@
           "wallet": {
             "required": true,
             "length": 11,
-            "validateExpression": "^03\\d{9}$",
+            "validateExpression": "^03\d{9}$",
             "placeholderEng": "03xxxxxxxxx",
             "placeholderUrd": "03xxxxxxxxx",
             "errorMsgEng": "Please enter wallet account!",
