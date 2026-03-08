@@ -29,7 +29,7 @@
         {
           "code": "JC",
           "name": "jazzcash",
-          "enabled": false,
+          "enabled": true,
           "wallet": {
             "required": true,
             "length": 11,
